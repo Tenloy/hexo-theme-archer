@@ -2856,3 +2856,9 @@ html::-webkit-scrollbar-track:hover,
 .social .jianshu:hover::before {
     color: #ea6f5a
 }
+
+.profile-disclaimer {
+  font-size: 0.7rem; 
+  text-align: center; 
+  margin-top: 1rem;
+}
