@@ -2530,17 +2530,27 @@ html::-webkit-scrollbar-track:hover,
 }
 
 .abstract-content ul,
-.abstract-content ul li,
-.article-entry ul,
-.article-entry ul li {
+.abstract-content ul li {
     list-style-type: initial
 }
 
+.article-entry ul,
+.article-entry ul li {
+    list-style-type: initial;
+    margin: 4px 0;
+    line-height: 1.6rem
+}
+
 .abstract-content ol,
-.abstract-content ol li,
+.abstract-content ol li {
+    list-style-type: decimal-leading-zero
+}
+
 .article-entry ol,
 .article-entry ol li {
-    list-style-type: decimal-leading-zero
+    list-style-type: decimal;
+    margin: 4px 0;
+    line-height: 1.6rem
 }
 
 .abstract-content h1:first-child,
