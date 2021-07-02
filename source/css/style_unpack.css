@@ -325,8 +325,8 @@ li {
 .back-top {
     position: fixed;
     display: block;
-    left: 1rem;
-    bottom: 1rem;
+    right: 2rem;
+    bottom: 2rem;
     z-index: 10;
     opacity: 0;
     width: 1.5rem;
@@ -335,7 +335,8 @@ li {
     line-height: 1.5rem;
     border: 2px solid #000;
     background-color: rgba(255, 255, 255, 0.8);
-    cursor: pointer
+    cursor: pointer;
+    z-index: 9997
 }
 
 .back-top:hover {
@@ -2706,7 +2707,7 @@ html::-webkit-scrollbar-track:hover,
     right: 1%;
     overflow: hidden;
     max-width: calc((100% - 42.8125rem - 4rem) / 2);
-    z-index: 9997;
+    z-index: 9996;
     margin: calc(3.5rem + 1rem) 0 0 0;
     transform: translate3d(0, 0, 0);
     transition: transform 0.3s ease-out 0s
