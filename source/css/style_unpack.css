@@ -250,7 +250,7 @@ th {
 }
 
 html {
-    font-size: 16px;
+    font-size: 15px;
     font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", STHeiti, "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
     overflow-x: hidden
 }
@@ -288,7 +288,8 @@ body {
     min-width: 42.8125rem;
     flex-grow: 0;
     padding: 0 0 0 0;
-    margin-left: 3rem
+    margin-left: 3rem;
+    font-size:15px
 }
 
 .container {
@@ -1645,10 +1646,11 @@ html::-webkit-scrollbar-track:hover,
 .abstract-content code,
 .article-entry code {
     background: #eee;
-    padding: 1px 0.4rem;
+    padding: 1px 0.3rem;
     border-radius: 2px;
     margin: 0 0.2rem;
-    border: none
+    border: none;
+    font-size: 0.9em
 }
 
 .abstract-content pre code,
@@ -2538,7 +2540,7 @@ html::-webkit-scrollbar-track:hover,
 .article-entry ul li {
     list-style-type: initial;
     margin: 4px 0;
-    line-height: 1.6rem
+    line-height: 1.5rem
 }
 
 .abstract-content ol,
@@ -2550,7 +2552,7 @@ html::-webkit-scrollbar-track:hover,
 .article-entry ol li {
     list-style-type: decimal;
     margin: 4px 0;
-    line-height: 1.6rem
+    line-height: 1.5rem
 }
 
 .abstract-content h1:first-child,
