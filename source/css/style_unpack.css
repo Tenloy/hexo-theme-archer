@@ -2730,7 +2730,7 @@ html::-webkit-scrollbar-track:hover,
 }
 
 .toc-catalog {
-    color: #bbb;
+    color: #6d6d6d;
     cursor: pointer;
     user-select: none;
     font: bolder 1.2rem "Oswald-Regular"
@@ -2762,16 +2762,24 @@ html::-webkit-scrollbar-track:hover,
     padding-left: 1rem
 }
 
+.toc-wrapper ol li{
+    margin: 5px 0;
+}
+
 .toc-wrapper .toc-number {
     font-weight: bold
 }
 
 .toc-wrapper a {
-    color: #ddd
+    color: #7d7d7d
 }
 
 .toc-wrapper a:hover {
     color: #f75357 !important
+}
+
+.toc-wrapper .toc-text {
+    font-size: 14px;
 }
 
 .toc-hide-children>* {
