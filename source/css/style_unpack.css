@@ -2026,17 +2026,18 @@ html::-webkit-scrollbar-track:hover,
 .sidebar-tag-name,
 .sidebar-category-name {
     display: inline-block;
-    width: 42%;
+    width: 45%;
     overflow: hidden;
     text-overflow: ellipsis;
     /*border:1px solid #fff;
     border-radius:5rem;*/
-    padding: 0.07rem 0.4rem 0.1rem 0.4rem;
-    margin: 0.2rem 0;
+    padding: 0.07rem 0 0.1rem 0;
+    margin: 0 2%;
     white-space: nowrap;
     font-size: 1rem;
     cursor: pointer;
-    color: #fff
+    color: #fff;
+    line-height: 28px;
 }
 
 .sidebar-tag-name:hover,
@@ -2050,7 +2051,7 @@ html::-webkit-scrollbar-track:hover,
     pointer-events: none;
     transform: translateY(-1rem);
     font-size: 0.6rem;
-    margin: 0 0.3rem 0 0.1rem
+    margin: 0 0.3rem 0 1rem
 }
 
 .sidebar-category-name .iconfont-archer {
