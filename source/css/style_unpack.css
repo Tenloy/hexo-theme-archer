@@ -2017,8 +2017,8 @@ html::-webkit-scrollbar-track:hover,
 .sidebar-tags-name,
 .sidebar-categories-name {
     flex-grow: 0;
-    width: 97%;
-    padding: 0 0 1rem 3%;
+    width: 100%;
+    padding: 0 0 1rem 0;
     max-height: 28rem;
     overflow: auto
 }
