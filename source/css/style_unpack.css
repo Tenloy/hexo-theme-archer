@@ -1637,8 +1637,8 @@ html::-webkit-scrollbar-track:hover,
     margin: 0.8rem 0;
     padding: 0.7rem 0.7rem;
     overflow: auto;
-    font-size: 0.9rem;
-    line-height: 1.3rem
+    font-size: 13px;
+    line-height: 1.5
 }
 
 .abstract-content .highlight .gutter pre,
@@ -2575,6 +2575,11 @@ html::-webkit-scrollbar-track:hover,
     list-style-type: decimal;
     margin: 4px 0;
     line-height: 1.5rem
+}
+
+.article-entry ul,
+.article-entry ol {
+    padding-left: 20px;
 }
 
 .abstract-content h1:first-child,
